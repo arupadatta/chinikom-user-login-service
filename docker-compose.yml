@@ -6,6 +6,6 @@ services:
        - "SPRING_PROFILES_ACTIVE=mysql"
     cpu_shares: 100
     mem_limit: 1073741824
-   ports:
+    ports:
       - "9005:9005"
       - "9006:9006"
